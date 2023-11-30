@@ -1,0 +1,47 @@
+<!--Assignment2  Firas Bukhari 2140472-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- page title -->
+    <title>API Assignment</title>
+    <!-- meta tags -->
+    <meta charset="utf-8" />
+    <meta name="description" content="Assignment2 this is my API" />
+    <meta name="keywords" content="Assignment2 ,API, API Assignment" />
+    <meta name="author" content="Firas Bukhari 2140472" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Files needed -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+
+  <body>
+    <!-- main content -->
+    <div class="container">
+      <div>
+        <h1 class="Header">Sunset and sunrise times</h1>
+        <p class="description">
+          Enter the Latitude and the Longitude to get the sunset and sunrise
+          times
+        </p>
+      </div>
+      <div class="input">
+        <input type="text" name="lat" placeholder="Enter the Latitude" />
+
+        <input type="text" name="lng" placeholder="Enter the Longitude" />
+      </div>
+      <br />
+      <div class="buttons">
+        <button onclick="getData()" ondblclick="dblclick()">
+          Get Sunset and sunrise data
+        </button>
+        <button onclick="displayErorr()" ondblclick="dblclick()">
+          Clear Sunset and sunrise data
+        </button>
+      </div>
+      <div id="displayValue"></div>
+    </div>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

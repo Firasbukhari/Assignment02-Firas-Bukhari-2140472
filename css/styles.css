@@ -1,0 +1,55 @@
+/* Assignment2 Firas Bukhari 2140472 */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+.container {
+  display: grid;
+  gap: 10px;
+}
+
+.Header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.input {
+  text-align: center;
+}
+
+.buttons {
+  text-align: center;
+}
+
+#displayValue {
+  margin: 20px auto;
+  max-width: 500px;
+  text-align: center;
+  background-color: white;
+  font-size: 20px;
+  padding: 20px;
+}
+
+#displayValue p {
+  margin: 10 px 0;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
